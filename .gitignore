@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+
+# Dependencies
+*.egg-info/
+pip-log.txt
+
+# Pytest
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# IDEs
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
