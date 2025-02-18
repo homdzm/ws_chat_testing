@@ -12,7 +12,7 @@ def create_message(session_id: str, text: str, ):
         "sessionId": session_id,
         "text": text,
         "sender": session_id
-            }
+        }
 
 def create_user_data(session_id: str):
     return {
@@ -21,4 +21,4 @@ def create_user_data(session_id: str):
         "email": fake.email(),
         "fullName": fake.last_name() + " " + fake.first_name(),
         "payload": {}
-            }
+        }

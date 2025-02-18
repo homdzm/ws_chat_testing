@@ -46,5 +46,5 @@ async def test_send_invalid_form(session_id):
     async with httpx.AsyncClient() as client:
         response = await client.post(url, json=payload, headers=headers)
 
-    assert response.status_code == 400
+    assert response.status_code == 400, f"Expected status code 400, but received {response.status_code}"
     assert "Invalid email format" in response.json()

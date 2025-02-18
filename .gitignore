@@ -11,6 +11,9 @@ venv/
 *.egg-info/
 pip-log.txt
 
+allure-report/
+allure-results/
+
 # Pytest
 .pytest_cache/
 .tox/
